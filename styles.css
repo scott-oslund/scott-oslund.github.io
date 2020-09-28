@@ -24,11 +24,12 @@ img {
     background-color: lightseagreen;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 5px;
 }
 
 .navbar > .logo {
-    font-size: 1.5em;
+    width : 12%;
+    height : auto;
 }
 
 .navbar > .contact a {
@@ -52,4 +53,22 @@ img {
     text-align : center;
     font-size : 25px;
     padding : 10px;
+}
+
+.title {
+    font-size: 2em;
+    position: relative;
+    top: -320px;
+    text-align : left;
+    left : 5px;
+    color: white;
+}
+
+.title a {
+        color: #FFFFFF;
+        text-decoration: none;
+}
+
+.thumbnail a:hover {
+    
 }
