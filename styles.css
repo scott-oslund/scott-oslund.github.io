@@ -1,7 +1,7 @@
 /* Container styles */
 
 body {
-    background-color : darkslategrey;
+    background-color : black;
     margin: 0px;
 }
 
@@ -43,6 +43,38 @@ img {
     color: black;
 }
 
+/* slideshow */
+.header {
+    font-size : 50px;
+    text-align : center;
+    color : white;
+    padding : 50px;
+}
+
+.interests {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.slideshow {
+    margin: auto;
+    padding: 50px;
+    height: 800px;
+    width: 900px;
+    align-self: center;
+}
+
+
+.slideshow > img {
+    object-fit: cover;
+    max-height: 900px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* tile styles */
 .tile-wrapper > div {
     display: grid;
@@ -64,11 +96,6 @@ img {
     color: white;
 }
 
-.title a {
-        color: #FFFFFF;
+.tiles > div a {
         text-decoration: none;
-}
-
-.thumbnail a:hover {
-    
 }
